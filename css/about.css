@@ -1,0 +1,166 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+}
+
+nav {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    height: 4vh;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #34495e;
+    font-size: 1.2em;
+}
+
+.navbar-line {
+    width: 70%;
+    height: 2px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 900px;
+    height: 80vh;
+    margin: 20px auto;
+    display: flex;
+}
+
+#about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    color: #34495e;
+}
+
+p {
+    color: #555;
+    font-size: 1.2em;
+}
+
+.footer-line{
+    width: 90%;
+    height: 0.5px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.logo {
+    margin-top: 11px;
+    height: 30px;
+}
+
+#about-container {
+    display: flex;
+    max-width: 1200px;
+}
+
+#picture-grid {
+    flex: 1;
+    margin-left: 60px;
+}
+
+#picture-grid img {
+    height: 580px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li.active a {
+    text-decoration: underline;
+    color: #2432F2;
+}
+
+#description-grid {
+    padding: 20px;
+}
+
+#description-grid h1 {
+    font-size: 40px;
+    color: #34495e;
+}
+
+#description-grid h2 {
+    font-size: 30px; 
+    color: #2432F2;
+}
+
+#description-grid p {
+    color: #555;
+    font-size: 1.4em;
+}
+
+.social-icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #2432F2;
+}
+
+#about-container {
+    display: flex;
+    max-width: 1200px;
+    position: relative;
+}
+
+.bubbles {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #3498db;
+    border-radius: 50%;
+    animation: bubble 5s ease-in-out infinite;
+}
+
+.bubble-1 { top: 90%; left: 80%; width: 60px; height: 60px; }
+.bubble-2 { top: 89%; left: 75%; width: 25px; height: 25px; }
+.bubble-3 { top: 83%; left: 80%; width: 40px; height: 40px; }
+.bubble-4 { top: 80%; left: 98%; width: 35px; height: 35px; }
+.bubble-5 { top: 84%; left: 74%; width: 28px; height: 28px; }
+.bubble-6 { top: 87%; left: 87%; width: 45px; height: 45px; }
+.bubble-7 { top: 94%; left: 90%; width: 32px; height: 32px; }
+.bubble-8 { top: 10%; left: 80%; width: 60px; height: 60px; }
+.bubble-9 { top: 7%; left: 75%; width: 25px; height: 25px; }
+.bubble-10 { top: 2%; left: 80%; width: 40px; height: 40px; }
+.bubble-11 { top: 4%; left: 98%; width: 35px; height: 35px; }
+.bubble-12 { top: 16%; left: 74%; width: 28px; height: 28px; }
+.bubble-13 { top: 12%; left: 87%; width: 45px; height: 45px; }
+.bubble-14 { top: 6%; left: 90%; width: 32px; height: 32px; }
+
